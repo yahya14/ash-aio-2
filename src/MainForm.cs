@@ -608,7 +608,7 @@ namespace NewAshAIO
 		{
 	      try
 	      {
-	      	Gecko.poke(0x106E757C, 0x70800000);
+	      	Gecko.poke(0x106E757C, 0x72800000);
 	      	statusLabel.Text = "?NoInkling hack poked.";
 	      }
 	      catch (Exception)
